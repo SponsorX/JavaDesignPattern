@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="observer.example2.StatisticsDisplay" project="DesignPattern" 
+    file="/DesignPattern/src/observer/example2/StatisticsDisplay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="196" x="214" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="observer.example2.DisplayElement" project="DesignPattern" 
+    file="/DesignPattern/src/observer/example2/DisplayElement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="129" x="720" y="224"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="observer.example2.WeatherData" project="DesignPattern" 
+    file="/DesignPattern/src/observer/example2/WeatherData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="230" x="450" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="observer.example2.ForecastDisplay" project="DesignPattern" 
+    file="/DesignPattern/src/observer/example2/ForecastDisplay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="196" x="956" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="observer.example2.GeneralDisplay" project="DesignPattern" 
+    file="/DesignPattern/src/observer/example2/GeneralDisplay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="196" x="720" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="observer.example2.WeatherSatation" project="DesignPattern" 
+    file="/DesignPattern/src/observer/example2/WeatherSatation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="135" x="1192" y="-97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="7">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
