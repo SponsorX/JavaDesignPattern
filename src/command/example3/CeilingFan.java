@@ -8,6 +8,8 @@ public class CeilingFan {
 	String location;
 	int speed;
 	
+	//Git Test용 주석 추가
+	
 	public CeilingFan(String location) {
 		this.location = location;
 		speed = OFF;
